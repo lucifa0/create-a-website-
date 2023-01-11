@@ -1,6 +1,61 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>public creation website</title>
-  </head>
+
+<head>
+  <title>Employe login page</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <h2>Employe login records</h2>
+      <p>Employe shall login before going to work.</p>
+    </div>
+    <div class="error hide">
+      <p>Please Enter the below information properly.
+      <p>
+    </div>
+    <div class="success hide">
+      <p>: Success</p>
+    </div>
+    <div class="inputs">
+      <div class="Email font">
+        <label>Email</label>
+        <input type="text" placeholder="eg:test@gmail.com">
+      </div>
+      <div class="fullname font">
+        <label>Fullname</label>
+        <input type="text" placeholder="Full name">
+      </div>
+      <div class="phonenumber font">
+        <label>PhoneNumber</label>
+        <input type="text" placeholder="eg:900020304">
+      </div>
+      <div class="role font">
+        <label>Role</label>
+        <input type="text" placeholder="Web developer">
+      </div>
+    </div>
+    <div class="button">
+      <button>Submit</button>
+    </div>
+
+  </div>
+  <div class="records">
+    <div class="titles ">
+      <p>Records</p>
+    </div>
+
+    <div class="delete">
+      <button id="delete">Delete</button>
+    </div>
+
+
+  </div>
+
+</body>
+<script src="main.js"></script>
+
 </html>
